@@ -2,6 +2,7 @@ import React from "react";
 import fruityvice from "../assets/portfolio/Fruityvice.png";
 import country from "../assets/portfolio/countrysearch.png";
 import tingdog from "../assets/portfolio/Tingdog.png";
+import simon from '../assets/portfolio/simons.png'
 
 const Portfolio = () => {
 
@@ -19,6 +20,10 @@ const Portfolio = () => {
         id: 3,
         src: tingdog,
       },
+      {
+        id:4,
+        src:simon,
+      }
     ];
 
   return (
